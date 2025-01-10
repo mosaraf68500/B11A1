@@ -321,3 +321,39 @@ table {
     background-color: #d0d0d0;
   }
   
+
+
+
+  /* news-container style start */
+
+  .news-container{
+    width: 100%;
+    display: flex;
+    gap: 28px;
+    background-color: #fff;
+    padding: 26px;
+    border-radius: 8px;
+    
+  }
+
+  .news-title{
+    color: #0E0E0ECC;
+  }
+.time{
+    display: flex;
+    gap: 20px;
+}
+ .news-text{
+    width: 60%;
+ }
+.image{
+    border-radius: 10px;
+}
+
+
+.margin{
+    margin-top: 40px;
+}
+
+  /* news-container end */
+
