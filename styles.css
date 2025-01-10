@@ -343,9 +343,7 @@ table {
     display: flex;
     gap: 20px;
 }
- .news-text{
-    width: 60%;
- }
+ 
 .image{
     border-radius: 10px;
 }
