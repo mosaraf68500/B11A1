@@ -47,19 +47,19 @@ body {
 
 .hero-p {
   color: rgba(14, 14, 14, 0.5);
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
-  line-height: 29px;
-  letter-spacing: 0%;
+  /* line-height: 29px; */
+  /* letter-spacing: 0%; */
   text-align: left;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
 }
 
 .hero-text-section {
   padding: 30px;
 }
 
-.heto-title {
+.hero-title {
   color: rgb(14, 14, 14);
   font-size: 40px;
   font-weight: 700;
@@ -234,9 +234,17 @@ section p {
 .digital-transformation button {
   background-color: #4caf50;
   color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
 }
 .digital-transformation button:hover {
   background-color: #2d712f;
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .green-energy {
@@ -246,10 +254,18 @@ section p {
 .green-energy button {
   background-color: #ff9800;
   color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
 }
 
 .green-energy button:hover {
   background-color: #a07d48;
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .modern-infrastructure {
@@ -259,17 +275,22 @@ section p {
 .modern-infrastructure button {
   background-color: #2196f3;
   color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
 }
 
 .modern-infrastructure button:hover {
   background-color: #1664a4;
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Dr. Muhammad Yunus style start */
 .yunus-container {
-  
-  
-
   background: white;
   margin-top: 60px;
   padding: 20px;
@@ -281,253 +302,282 @@ section p {
 
   background: rgb(255, 255, 255);
 }
-.yunus-content{
-background-image: url('./assets/quote-bg.png');
-/* background-size: cover; */
+.yunus-content {
+  background-image: url("./assets/quote-bg.png");
+  /* background-size: cover; */
   background-position: top left;
   padding-top: 24px;
   background-repeat: no-repeat;
-  
- 
 }
 
 /* Dr. Muhammad Yunus style end */
-
-
-table {
+/* table start */
+/* Container and Global Styles */
+.container {
+    /* width: 100%; */
+    margin: 30px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  .title {
+    /* text-align: center; */
+    font-size: 24px;
+    /* margin-bottom: 10px; */
+    color: #333;
+  }
+  
+  /* Table Styles */
+  .opinion-table {
     width: 100%;
     border-collapse: collapse;
-    margin: 20px 0;
   }
   
-  th, td {
-    padding: 8px;
-    /* text-align: center; */
-    width: 80%;
-    border: 1px solid #ddd;
+  .table-header {
+    background-color: #d4edda;
+    color: #155724;
   }
   
-  th {
-    background-color: #C6E4D6;
+  .table-heading {
+    padding: 15px;
+    text-align: left;
     font-weight: bold;
+    border: 1px solid #dee2e6;
+  }
+  
+  .table-body .table-row:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .table-cell {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #dee2e6;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Dropdown Select Styles */
+  .opinion-select {
     width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
   }
   
-  thead tr:nth-child(1) {
-    background-color: #e0e0e0;
-  }
-  
-  thead tr:nth-child(3) {
-    background-color: #d0d0d0;
-  }
-  
+/* table end */
+/* news-container style start */
 
-
-
-  /* news-container style start */
-
-  .news-container{
-    width: 100%;
-    display: flex;
-    gap: 28px;
-    background-color: #fff;
-    padding: 26px;
-    border-radius: 8px;
-    
-  }
-
-  .news-title{
-    color: #0E0E0ECC;
-  }
-.time{
-    display: flex;
-    gap: 20px;
-}
- 
-.image{
-    border-radius: 10px;
+.news-container {
+  width: 100%;
+  display: flex;
+  gap: 28px;
+  background-color: #fff;
+  padding: 26px;
+  border-radius: 8px;
 }
 
-
-.margin{
-    margin-top: 40px;
+.news-title {
+  color: #0e0e0ecc;
+}
+.time {
+  display: flex;
+  gap: 20px;
 }
 
-  /* news-container end */
+.image {
+  border-radius: 10px;
+}
+
+.margin {
+  margin-top: 40px;
+}
+
+/* news-container end */
 
 /* donate-card start */
 
-.donate-section{
-    width: 85%;
-    margin: auto;
+.donate-section {
+  width: 85%;
+  margin: auto;
 }
-.donate-title{
-    text-align: center;
+.donate-title {
+  text-align: center;
 }
-.donate-p{
-    text-align: center;
+.donate-p {
+  text-align: center;
 }
 .donate-div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
 }
 
 .donate-card {
-    background-color: #fff;
-    display: flex;
-    justify-content: center; 
-    align-items: center;    
-    text-align: center;     
-    padding: 20px;
-    border-radius: 10px;
-    height: 100px;          
-    width: 200px;           
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  height: 100px;
+  width: 200px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-.donate-card >h1{
-    text-align: center;
+.donate-card > h1 {
+  text-align: center;
 }
 
-.card2{
-    background-color: #C6E4D6;
+.card2 {
+  background-color: #c6e4d6;
 }
-.card1:hover{
-    background-color: #C6E4D6;
-}
-
-.card3:hover{
-    background-color: #C6E4D6;
+.card1:hover {
+  background-color: #c6e4d6;
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.card4:hover{
-    background-color: #C6E4D6;
+.card3:hover {
+  background-color: #c6e4d6;
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.input{
-    width: 100%;
-    padding: 10px;
-    margin: 5px 0;
-    font-size: 16px;
-    border: none;
-    border-radius: 8px;
-    box-sizing: border-box;
-    text-align: center;
-    background-color: #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+.card4:hover {
+  background-color: #c6e4d6;
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.donate-input{
-    margin-top: 20px;
+.input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.donate-btn{
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+.donate-input {
+  margin-top: 20px;
+}
+
+.donate-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 /* Subscribe Newsletter */
 
-
-
-.Newsletter-container{
-    width: 90%;
-    margin: auto;
+.Newsletter-container {
+  width: 90%;
+  margin: auto;
 }
 
 .newsletter-content {
-    text-align: center;
-    background-color: #C6E4D6;
-    padding: 50px 200px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-   /* padding: 200px ; */
-    
-  }
-  
-  .newsletter-title {
-    font-size: 24px;
-    font-weight: bold;
-    color: #073b4c;
-    margin-bottom: 10px;
-  }
-  
-  .newsletter-description {
-    font-size: 16px;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .newsletter-form {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 15px;
-    position: relative;
-  }
-  
-  .email-input {
-    padding: 10px;
-    padding-left: 20px;
-    flex: 1;
-    font-size: 14px;
-    border: 1px solid #ced4da;
-    border-radius: 5px;
-    outline: none;
-    width: 50%;
-  }
-  
-  .email-input::placeholder {
-    color: #adb5bd;
-  }
-  
-  .subscribe-button {
-    padding: 10px 20px;
-    font-size: 14px;
-    color: #fff;
-    background-color: #006A50;
-    border: none;
-    border-radius:0px 5px 5px 0px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    position: absolute;
-    right: -10px;
-  }
-  
-  .subscribe-button:hover {
-    background-color: #043227;
-  }
-  
-  .newsletter-promise {
-    font-size: 14px;
-    text-align: center;
-    margin-top: 10px;
-  }
+  text-align: center;
+  background-color: #c6e4d6;
+  padding: 50px 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* padding: 200px ; */
+}
 
+.newsletter-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #073b4c;
+  margin-bottom: 10px;
+}
 
-  /* footer start */
+.newsletter-description {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+}
 
-  .footer{
-    width: 100%;
-    background-color: #fff;
-    text-align: center;
-    margin-top: 40px;
-  }
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+  position: relative;
+}
 
-  .footer-content{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    /* margin-bottom: 100px; */
-  }
+.email-input {
+  padding: 10px;
+  padding-left: 20px;
+  flex: 1;
+  font-size: 14px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  outline: none;
+  width: 50%;
+}
 
-  .footer-card{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-  }
+.email-input::placeholder {
+  color: #adb5bd;
+}
 
+.subscribe-button {
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #006a50;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: absolute;
+  right: -10px;
+}
 
+.subscribe-button:hover {
+  background-color: #043227;
+}
+
+.newsletter-promise {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* footer start */
+
+.footer {
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.footer-content {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* margin-bottom: 100px; */
+}
+
+.footer-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
