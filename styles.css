@@ -355,3 +355,157 @@ table {
 
   /* news-container end */
 
+/* donate-card start */
+
+.donate-section{
+    width: 85%;
+    margin: auto;
+}
+.donate-title{
+    text-align: center;
+}
+.donate-p{
+    text-align: center;
+}
+.donate-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.donate-card {
+    background-color: #fff;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    text-align: center;     
+    padding: 20px;
+    border-radius: 10px;
+    height: 100px;          
+    width: 200px;           
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.donate-card >h1{
+    text-align: center;
+}
+
+.card2{
+    background-color: #C6E4D6;
+}
+.card1:hover{
+    background-color: #C6E4D6;
+}
+
+.card3:hover{
+    background-color: #C6E4D6;
+}
+
+.card4:hover{
+    background-color: #C6E4D6;
+}
+
+.input{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.donate-input{
+    margin-top: 20px;
+}
+
+.donate-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Subscribe Newsletter */
+
+
+
+.Newsletter-container{
+    width: 90%;
+    margin: auto;
+}
+
+.newsletter-content {
+    text-align: center;
+    background-color: #C6E4D6;
+    padding: 50px 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   /* padding: 200px ; */
+    
+  }
+  
+  .newsletter-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #073b4c;
+    margin-bottom: 10px;
+  }
+  
+  .newsletter-description {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    position: relative;
+  }
+  
+  .email-input {
+    padding: 10px;
+    padding-left: 20px;
+    flex: 1;
+    font-size: 14px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    outline: none;
+    width: 50%;
+  }
+  
+  .email-input::placeholder {
+    color: #adb5bd;
+  }
+  
+  .subscribe-button {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #0d6efd;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    right: -10px;
+  }
+  
+  .subscribe-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .newsletter-promise {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+
+
